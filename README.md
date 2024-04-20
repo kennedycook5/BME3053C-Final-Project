@@ -1,6 +1,15 @@
 # BME3053C-Final-Project
 Final Project on Meningioma Tumor Detection in transverse MRI scans. Developed by Amelia Adin, Hallie Bardani, Kennedy Cook, and Erika Malits.
 
+%BME 3053C Final project MATLAB Script
+%Authors: Amelia Adin, Hallie Bardani, Kennedy Cook, and Erika Maltis
+%Course: BME 3053C Computer Applications for BME
+%Term: Spring 2024
+%J. Crayton Pruitt Family Department of Biomedical Engineering
+%University of Florida
+%Email: kennedy.cook@ufl.edu
+%April 20, 2024
+
 clc; clear;
 Img = input('Enter image file name: ', 's');
 img = imread(Img);
